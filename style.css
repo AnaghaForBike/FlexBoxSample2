@@ -1,0 +1,115 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  width: 70%;
+  margin: 20px auto;
+  background-color: #000;
+  color: #fff;
+  border-radius: 7px;
+}
+
+
+.sample2-header {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 20px 40px;
+  margin-bottom: 15px;
+}
+
+.sample2-header-logo {
+  font-size: 90px;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.sample2-header-logo span {
+  margin-left: -35px;
+}
+
+.sample2-header-menu {
+  cursor: pointer;
+}
+
+.sample2-header-menu div {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+}
+
+.sample2-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sample2-section-col-1 {
+  /* padding-left: 30px; */
+  margin-left: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.sample2-section-col-1 img {
+  width: 100%;
+  height: 400px;
+}
+.sample2-section-col-1-content {
+  margin-top: 20px;
+  height: 250px;
+}
+
+.sample2-section-col-1-content-left {
+  font-size: 36px;
+  font-weight: 300;
+  text-align: left;
+  width: 50%;
+}
+
+.sample2-section-col-1-content-right {
+  letter-spacing: 0px;
+  text-align: left;
+  color: gray;
+  text-align: right;
+  width: 40%;
+  margin-left: 60%;
+}
+
+.sample2-section-col-2 {
+  padding-right: 30px;
+}
+
+.sample2-section-col-2-list {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.sample2-section-col-2-list p {
+  border-bottom: 1px solid gray;
+  flex: 1 0 50px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.sample2-footer {
+ padding: 40px;
+  /* font-size: 16px; */
+}
+
+.sample2-footer h5 {
+  word-spacing: 1px;
+  letter-spacing: 0;
+  font-size: 12px;
+}
